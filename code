@@ -1,0 +1,14 @@
+#imports module calendar
+import calendar
+# takes input from the user
+y = int(input("enter the year: "))
+m = int(input("enter the month: "))
+#prints calendar of the given month in that year
+print(calendar.month(y, m))
+#prints total calendar of the given year
+print(calendar.calendar(y))
+#checks if the given year is leap year or not
+print(calendar.isleap(y))
+y1 = int(input("enter the year: "))
+#The no.of leap years in the given range will be printed
+print(calendar.leapdays(y, y1))
